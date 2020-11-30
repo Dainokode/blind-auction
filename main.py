@@ -28,8 +28,6 @@ for index in range(len(bidders)):
     bid_amount = bidders[index]["bid"]
     if bid_amount > total:
         total = bid_amount
-    
-print(total)
 
 for index in range(len(bidders)):
     if bid_amount > total:
